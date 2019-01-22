@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Index</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="page">
+        <div class="Navcontener">
+            <div class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li class="search">
+                        <input type="text" class="search-input" placeholder="Search">
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="text">
+                <h1>LearnFlexbox</h1>
+            </div>
+            <h2 style="color:palevioletred">only programming in important in live</h2>
+        </div>
+        <!-- <input name="textId" id="textId" type="text">
+                            <input id="button1" value="ClickMe" type="button" onclick="button1()"></input>
+                            <div>
+                                <button onclick="addTolist()">AddtoList</button>
+                                <ul id="myList">
+                
+                                </ul>
+                            </div>
+                          -->
+
+
+    </div>
+
+
+
+    <script>
+        function addTolist() {
+            var node = document.createElement("li");
+            var textnode = document.createTextNode(document.getElementById("textId").value);
+
+            node.appendChild(textnode);
+            document.getElementById("myList").appendChild(node);
+        }
+        var tablica = [0, 2, 3, 4, 5, 6, 7]
+
+        tablica.forEach(function (element, index) {
+            ('idex' + index + 'element' + element);
+        })
+
+        const funkcja = (index, element) => {
+
+        }
+
+
+
+        document.getElementById("button1").onclick = function () {
+            var value = document.getElementById("textId").value;
+            alert(value);
+        }
+    </script>
+</body>
+
+</html>

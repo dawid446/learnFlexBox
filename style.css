@@ -1,8 +1,9 @@
 *{
+
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
+    font-family: 'Roboto', sans-serif;
 }
 body{
     margin: 0px;
@@ -19,6 +20,7 @@ body{
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
+    margin-left: 20%;
 }
 
 ul li{
@@ -34,7 +36,7 @@ ul li:hover{
 
 .container_first{
     height: 100vh;
-    background-color: #153243;
+    background-color: #FFB8D1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,20 +45,27 @@ ul li:hover{
 
 
 .text{
-    height: 30vh;
-    width: 50vh;
-    background-color: #F991CC;
+    height: 40vh;
+    width: 60vh;
+    background-color: #885070;
     border-radius: 15px;
     display: flex;
 
-    color: #1B264F;
+    color: white;
 }
 .text h1{
     margin: auto
 }
+.container_first h2
+{
+    color:palevioletred;
+    font-size: 40px;
+    margin: 60px;
+
+}
 .container_first .text:hover{
     background-color: #885070;
-    color: white;
+
 
     transition:all 0.3s ease;
     -webkit-transform: scale(1.3);
